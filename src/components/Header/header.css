@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    /* background-color: azure; */
+    margin: 2rem;
+}
+.about-section{
+    flex: 1;
+    text-align: center;
+}
+.underline{
+    height: 8px;
+    width:25px;
+    color: black;
+}
+h2{
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    
+}

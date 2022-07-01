@@ -1,0 +1,42 @@
+.projects-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: aliceblue; */
+  border-radius: 19px;
+  background: aliceblue;
+  box-shadow: 17px 17px 34px #75757a, -17px -17px 34px #ffffff;
+  gap: 2rem;
+}
+.project-title {
+  text-align: center;
+  border-radius: 10px;
+  background: #90a3a3;
+  box-shadow: 5px -5px 10px #20208c, -5px 5px 10px #ffffff;
+}
+.img {
+  border-radius: 19px;
+  background: #f9ffff;
+  box-shadow: 33px 33px 67px #817c7c, -33px -33px 67px #ffffff;
+}
+.img img {
+  padding: 1rem;
+}
+.project-content {
+  display: flex;
+}
+.tech-stacks {
+  /* text-align: left; */
+
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+.techs {
+  padding: 0.25rem;
+}
+.social {
+  margin: 0 auto;
+  padding: 4rem;
+}
